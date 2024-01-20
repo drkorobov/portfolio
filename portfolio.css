@@ -1,0 +1,174 @@
+@keyframes animate-fade-out
+{
+   0% { opacity: 1;  }
+   100% { opacity: 0;  }
+}
+@keyframes flip
+{
+   0% { transform: perspective(400px) rotateX(0deg) rotateY(-360deg) scale3d(1,1,1) ;  }
+   50% { transform: perspective(400px) rotateX(0deg) rotateY(-180deg) scale3d(1.2,1.2,1.2) ;  }
+   100% { transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+@keyframes magic-in
+{
+   0% { transform-origin: 200% 500%; transform: rotate(270deg) scale(0,0) ; opacity: 0;  }
+   100% { transform-origin: 100% 200%; transform: rotate(0deg) scale(1,1) ; opacity: 1;  }
+}
+@keyframes slide-down-in
+{
+   0% { transform: translate(0px,-100%) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@keyframes slide-left-in
+{
+   0% { transform: translate(-100%,0px) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@keyframes slide-up-in
+{
+   0% { transform: translate(0px,100%) rotate(1deg) ; opacity: 0; transform-origin: 0 0;  }
+   100% { opacity: 1; transform: translate(0px,0px) rotate(0deg) ; transform-origin: 0 0;  }
+}
+@keyframes swoop-in
+{
+   0% { transform: translate(-400px,0px) rotate(0deg) scale(1.5,1) ; opacity: 0;  }
+   40% { transform: translate(0px,0px) rotate(0deg) scale(1.2,1.0) ; opacity: 1;  }
+   60% { transform: translate(20px,0px) rotate(0deg) scale(1.0,1.0) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) scale(1,1) ;  }
+}
+@keyframes tin-right-in
+{
+   0% { transform: translate(900%,0px) rotate(0deg) ; opacity: 0;  }
+   50% { transform: translate(0px,0px) rotate(0deg) scale(1.1,1.1) ; opacity: 1;  }
+   60% { transform: translate(0px,0px) rotate(0deg) scale(1.0,1.0) ;  }
+   70% { transform: translate(0px,0px) rotate(0deg) scale(1.1,1.1) ;  }
+   80% { transform: translate(0px,0px) rotate(0deg) scale(1.0,1.0) ;  }
+   90% { transform: translate(0px,0px) rotate(0deg) scale(1.1,1.1) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) scale(1.0,1.0) ; opacity: 1;  }
+}
+@keyframes transform-bounce
+{
+   0% { transform: rotate(0deg) ;  }
+   20% { transform: rotate(0deg) ;  }
+   40% { transform: translate(0px,-30px) rotate(0deg) ;  }
+   50% { transform: translate(0px,0px) rotate(0deg) ;  }
+   60% { transform: translate(0px,-15px) rotate(0deg) ;  }
+   80% { transform: translate(0px,0px) rotate(0deg) ;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ;  }
+}
+@keyframes unfold
+{
+   0% { transform: rotateX(0deg) scale3d(0,0,0) ; opacity: 0;  }
+   30% { opacity: 1; transform: rotateX(0deg) scale3d(0.4,0.4,1.0) ;  }
+   60% { transform: rotateX(0deg) scale3d(0.4,1.0,1.0) ;  }
+   100% { transform: rotateX(0deg) scale3d(1.0,1.0,1.0) ;  }
+}
+a.style1
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style1:visited
+{
+   color: #800080;
+   text-decoration: underline;
+}
+a.style1:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.style1:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   --color: #000000;
+   background-color: transparent;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline-block;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   --color: #2E74B5;
+   background-color: transparent;
+}

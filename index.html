@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Портфолио Коробов А.Л.</title>
+<meta name="generator" content="WYSIWYG Web Builder 19 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="64.png" rel="icon" sizes="64x64" type="image/png">
+<link href="owl.carousel.min.css" rel="stylesheet">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="portfolio.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="particles.min.js"></script>
+
+<link rel="stylesheet" href="mediaelementjs/mediaelementplayer.min.css" />
+<script src="mediaelementjs/mediaelement-and-player.min.js"></script>
+
+<script src="wwb19.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_tableau_Card').addClass('visibility-hidden');
+   function onScrollanalit_textDividerTop()
+   {
+      var $obj = $('#analit_text-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollanalit_textDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollanalit_textDividerTop();
+   });
+   function onScrollgrafikaDividerTop()
+   {
+      var $obj = $('#grafika-divider-top');
+      if (!$obj.hasClass('show') && $obj.inViewPort(false))
+      {
+         $obj.addClass('show');
+      }
+   }
+   onScrollgrafikaDividerTop();
+   $(window).scroll(function(event)
+   {
+      onScrollgrafikaDividerTop();
+   });
+$('#footer').prepend('<div id="partical_footer-particles"></div>');
+particlesJS('partical_footer-particles', {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "FFFFFF"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 3
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    }, 
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 90,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "FFFFFF",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 0.8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+$('#player').mediaelementplayer({features:['playpause', 'current', 'progress', 'duration', 'tracks', 'volume'], loop:true, startVolume: 70/100});
+   function onScrolltableau_Card()
+   {
+      var $obj = $("#wb_tableau_Card");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_tableau_Card', 'transform-bounce', 1, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_tableau_Card', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_tableau_Card').inViewPort(true))
+   {
+      $('#wb_tableau_Card').addClass("in-viewport");
+   }
+   onScrolltableau_Card();
+   $(window).scroll(function(event)
+   {
+      onScrolltableau_Card();
+   });
+   $('#wb_photo_Section').parallax();
+$('#header').prepend('<div id="partical_header-particles"></div>');
+particlesJS('partical_header-particles', {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "FFFFFF"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 3
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    }, 
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 90,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "FFFFFF",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 0.8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+   $("#analit_image_col").owlCarousel({autoplayTimeout:10000, margin: 16, autoplay: false, nav: true, loop: true, dots: true, items: 1, slideBy: 1});
+   $("#grafica_cardcont").owlCarousel({autoplayTimeout:10000, margin: 16, autoplay: false, nav: true, loop: true, dots: true, items: 1, slideBy: 1});
+});
+</script>
+</head>
+<body>
+<div id="wb_header">
+<div id="header-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 279.24" preserveAspectRatio="none">
+<path class="divider-fill" style="opacity:0.25" d="M1000 0S331.54-4.18 0 279.24h1000z"/>
+<path class="divider-fill" d="M1000 279.24s-339.56-44.3-522.95-109.6S132.86 23.76 0 25.15v254.09z"/>
+</svg></div>
+<div id="header">
+<div class="col-1">
+<div id="wb_logo" style="display:inline-block;width:70px;height:70px;z-index:0;">
+<img src="images/icon_1.png" id="logo" alt="" width="70" height="70">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Heading1" style="display:block;width:100%;z-index:1;">
+<h1 id="Heading1">Портфолио Коробова А.Л.</h1>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_ThemeableButton1" style="display:block;width:100%;height:45px;z-index:2;">
+<a class="ui-button ui-corner-all" id="ThemeableButton1" href="./old.html" target="_blank" style="width:100%;height:100%;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span>Страница с ссылками</a>
+</div>
+<div id="wb_player" style="display:block;z-index:3;">
+<audio id="player" style="width:100%;height:100%;" controls="controls"   width="100%" height="100%">
+<source src="kev-rowe-a-great-calm.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="wb_potroha">
+<div id="potroha">
+<div class="col-1">
+<div id="wb_photo_Section" style="display:flex;width:100%;z-index:5;" class="card">
+<div id="photo_Section-card-body">
+<div id="photo_Section-card-item0"><img src="images/SN850729%2dscaled.webp" width="1920" height="2560" alt="" title=""></div>
+<div id="photo_Section-card-item1"><img src="&#1084;&#1072;&#1089;&#1082;&#1072;.svg" width="680" height="910" alt="" title=""></div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_excel">
+<div id="excel">
+<div class="col-1">
+<div id="wb_excel_Card" style="display:inline-block;width:162px;height:208px;z-index:6;" class="card">
+<div id="excel_Card-card-header">Excel</div>
+<div id="excel_Card-card-body">
+<img id="excel_Card-card-item1" src="excel.svg" width="256" height="256" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_access">
+<div id="access">
+<div class="col-1">
+<div id="wb_access_Card" style="display:inline-block;width:162px;height:208px;z-index:7;" class="card">
+<div id="access_Card-card-header">Access</div>
+<div id="access_Card-card-body">
+<img id="access_Card-card-item1" src="access.svg" width="256" height="256" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_finebi">
+<div id="finebi">
+<div class="col-1">
+<div id="wb_finebi_Card" style="display:inline-block;width:162px;height:208px;z-index:8;" class="card">
+<div id="finebi_Card-card-header">FineBI</div>
+<div id="finebi_Card-card-body">
+<img id="finebi_Card-card-item1" src="images/finebi.png" width="172" height="169" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_powerbi">
+<div id="powerbi">
+<div class="col-1">
+<div id="wb_powerbi_Card" style="display:inline-block;width:162px;height:208px;z-index:9;" class="card">
+<div id="powerbi_Card-card-header">Power-BI</div>
+<div id="powerbi_Card-card-body">
+<img id="powerbi_Card-card-item1" src="power%2dbi.svg" width="256" height="256" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_qlick">
+<div id="qlick">
+<div class="col-1">
+<div id="wb_qlick_Card" style="display:inline-block;width:162px;height:208px;z-index:10;" class="card">
+<div id="qlick_Card-card-header">Qlik-Sense</div>
+<div id="qlick_Card-card-body">
+<img id="qlick_Card-card-item1" src="images/Qlik%2dSense%2dDesktop.png" width="1067" height="1067" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_tableau">
+<div id="tableau">
+<div class="col-1">
+<div id="wb_tableau_Card" style="display:inline-block;width:162px;height:232px;z-index:11;" class="card">
+<div id="tableau_Card-card-header">Tableau</div>
+<div id="tableau_Card-card-body">
+<a href="https://public.tableau.com/app/profile/alex2923" target="_blank" class="stretched-link"><img id="tableau_Card-card-item1" src="tableau.svg" width="256" height="256" alt="" title=""></a>
+</div>
+<div id="tableau_Card-card-footer">ПОСМОТРЕТЬ НА САЙТЕ Tableau</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_photoshop">
+<div id="photoshop">
+<div class="col-1">
+<div id="wb_photoshop_card" style="display:inline-block;width:169px;height:208px;z-index:18;" class="card">
+<div id="photoshop_card-card-header">Photoshop</div>
+<div id="photoshop_card-card-body">
+<img id="photoshop_card-card-item1" src="images/photoshop.png" width="256" height="256" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_iilustrator">
+<div id="iilustrator">
+<div class="col-1">
+<div id="wb_illustrator_Card" style="display:inline-block;width:169px;height:208px;z-index:19;" class="card">
+<div id="illustrator_Card-card-header">Illustrator</div>
+<div id="illustrator_Card-card-body">
+<img id="illustrator_Card-card-item1" src="images/illustrator.png" width="1067" height="1067" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_xd">
+<div id="xd">
+<div class="col-1">
+<div id="wb_xd_Card" style="display:inline-block;width:169px;height:208px;z-index:20;" class="card">
+<div id="xd_Card-card-header">XD</div>
+<div id="xd_Card-card-body">
+<img id="xd_Card-card-item1" src="images/adobe%2dxd.png" width="1067" height="1067" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_corelG">
+<div id="corelG">
+<div class="col-1">
+<div id="wb_corel" style="display:inline-block;width:169px;height:208px;z-index:21;" class="card">
+<div id="corel-card-header">Corel Draw</div>
+<div id="corel-card-body">
+<img id="corel-card-item1" src="corel.svg" width="225" height="224" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_power">
+<div id="power">
+<div class="col-1">
+<div id="wb_power_point" style="display:inline-block;width:169px;height:208px;z-index:22;" class="card">
+<div id="power_point-card-header">Power Point</div>
+<div id="power_point-card-body">
+<img id="power_point-card-item1" src="power%2dpoint.svg" width="256" height="256" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_indesign">
+<div id="indesign">
+<div class="col-1">
+<div id="wb_indesign_Card" style="display:inline-block;width:169px;height:208px;z-index:23;" class="card">
+<div id="indesign_Card-card-header">InDesign</div>
+<div id="indesign_Card-card-body">
+<img id="indesign_Card-card-item1" src="images/indesign.png" width="1067" height="1067" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_meditation" style="display:block;width:100%;height:auto;z-index:30;">
+<img src="header.svg" id="meditation" alt="" width="180" height="180">
+</div>
+<div id="wb_intro">
+<p>«Способность к анализу не следует смешивать с простой изобретательностью, ибо аналитик всегда изобретателен, тогда как не всякий изобретательный человек способен к анализу».</p>
+<p>Эдгар Аллан По</p>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_analit_text">
+<div id="analit_text-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 279.24" preserveAspectRatio="none">
+<path class="divider-fill" style="opacity:0.25" d="M1000 0S331.54-4.18 0 279.24h1000z"/>
+<path class="divider-fill" d="M1000 279.24s-339.56-44.3-522.95-109.6S132.86 23.76 0 25.15v254.09z"/>
+</svg></div>
+<div id="analit_text">
+<div class="col-1">
+<div id="wb_analit_Card" style="display:flex;width:100%;z-index:32;" class="card">
+<div id="analit_Card-card-body">
+<div id="analit_Card-card-item0">СКАЧАТЬ ВСЕ ФАЙЛЫ ПРОЕКТОВ И ПРЕЗЕНТАЦИЙ</div>
+<a href="https://drive.google.com/drive/folders/1lqYjnrqbpBRNVMVx1iWM_h8DeMGH0uPj" target="_blank" class="stretched-link"><img id="analit_Card-card-item1" src="analit.svg" width="2000" height="2000" alt="" title=""></a>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_analitika" style="display:block;width:100%;z-index:33;">
+<h1 id="analitika">АНАЛИТИКА</h1>
+</div>
+<div id="wb_cotent">
+<p>Поработав маркетологом-аналитиком на разных готовых CRM, в новой компании погрузился на глубокий технический уровень и с нуля осуществил разработку и внедрение базы данных на Access с сетевым доступом для сотрудников. Очень много было разработано, внедрено, проанализировано в Excel (включая сложные формулы, макросы, Power Pivot, Power Query до написания надстроек vb.net). Очень увлекла аналитика и работа с инструментами BI (Power BI, Tableau и др.)&nbsp;и ETL(EasyMorph,Tableau Prep), сейчас осваиваю китайский продукт FineBI&nbsp;и нотации BPMN. Соответственно для полноценной аналитики приходиться погружаться в работу с различными инструментами (Яндекс.Метрика, Google Analytics, Looker Studio и пр.), которые как сами позволяют работать напрямую или осуществлять выгрузку. Многие интересные проекты можно осуществить в связке с сервисами, к примеру популярные площадки для интернет-торговли Wildberries, Ozon (mpstats + Tableau).</p>
+<br>
+<p>Жду ваших предложений!</p>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_analit_image">
+<div id="analit_image">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="analit_image_col" class="owl-carousel owl-theme">
+<div id="wb_mpstats-wildberries_T" style="display:flex;z-index:35;" class="card">
+<div id="mpstats-wildberries_T-card-body">
+<div id="mpstats-wildberries_T-card-item0"><a href="https://docs.google.com/presentation/d/1uqrLUr_kHJkl6aXPNE-b85N6IaBx0uPY/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="mpstats-wildberries T"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="mpstats-wildberries_T-card-item1" src="images/mpstats%2dwildberries%2dT.webp" width="1920" height="1170" alt="" title="mpstats-wildberries-T">
+</div>
+<div id="mpstats-wildberries_T-card-footer">mpstats-wildberries-T</div>
+</div>
+<div id="wb_excel_ABC_XYZ_товарная_матрица" style="display:flex;z-index:36;" class="card">
+<div id="excel_ABC_XYZ_товарная_матрица-card-body">
+<img id="excel_ABC_XYZ_товарная_матрица-card-item0" src="images/excel_ABC_XYZ_&#1090;&#1086;&#1074;&#1072;&#1088;&#1085;&#1072;&#1103;_&#1084;&#1072;&#1090;&#1088;&#1080;&#1094;&#1072;.gif" width="1920" height="1160" alt="" title="excel_ABC_XYZ_товарная_матрица">
+</div>
+<div id="excel_ABC_XYZ_товарная_матрица-card-footer">excel_ABC_XYZ_товарная_матрица</div>
+</div>
+<div id="wb_excel1" style="display:flex;z-index:37;" class="card">
+<div id="excel1-card-body">
+<img id="excel1-card-item0" src="images/excel.webp" width="1920" height="1160" alt="" title="excel">
+</div>
+<div id="excel1-card-footer">excel</div>
+</div>
+<div id="wb_excel_vb" style="display:flex;z-index:38;" class="card">
+<div id="excel_vb-card-body">
+<img id="excel_vb-card-item0" src="images/excel_vb.net.webp" width="1920" height="1200" alt="" title="excel_vb.net">
+</div>
+<div id="excel_vb-card-footer">excel_vb.net</div>
+</div>
+<div id="wb_excel_power_query" style="display:flex;z-index:39;" class="card">
+<div id="excel_power_query-card-body">
+<img id="excel_power_query-card-item0" src="images/excel_power_query.webp" width="1920" height="1160" alt="" title="excel_power_query">
+</div>
+<div id="excel_power_query-card-footer">excel_power_query</div>
+</div>
+<div id="wb_excel_прогноз" style="display:flex;z-index:40;" class="card">
+<div id="excel_прогноз-card-body">
+<img id="excel_прогноз-card-item0" src="images/excel_&#1087;&#1088;&#1086;&#1075;&#1085;&#1086;&#1079;.webp" width="1920" height="1160" alt="" title="excel_прогноз">
+</div>
+<div id="excel_прогноз-card-footer">excel_прогноз</div>
+</div>
+<div id="wb_excel_макросы" style="display:flex;z-index:41;" class="card">
+<div id="excel_макросы-card-body">
+<img id="excel_макросы-card-item0" src="images/excel_&#1084;&#1072;&#1082;&#1088;&#1086;&#1089;&#1099;.webp" width="1920" height="1161" alt="" title="excel_макросы">
+</div>
+<div id="excel_макросы-card-footer">excel_макросы</div>
+</div>
+<div id="wb_excel_категоризация" style="display:flex;z-index:42;" class="card">
+<div id="excel_категоризация-card-body">
+<img id="excel_категоризация-card-item0" src="images/excel_&#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;.webp" width="1920" height="1160" alt="" title="excel_категоризация">
+</div>
+<div id="excel_категоризация-card-footer">excel_категоризация</div>
+</div>
+<div id="wb_excel_карта" style="display:flex;z-index:43;" class="card">
+<div id="excel_карта-card-body">
+<img id="excel_карта-card-item0" src="images/excel_&#1082;&#1072;&#1088;&#1090;&#1072;.webp" width="1920" height="1163" alt="" title="excel_карта">
+</div>
+<div id="excel_карта-card-footer">excel_карта</div>
+</div>
+<div id="wb_excel_динамика" style="display:flex;z-index:44;" class="card">
+<div id="excel_динамика-card-body">
+<img id="excel_динамика-card-item0" src="images/excel_&#1076;&#1080;&#1085;&#1072;&#1084;&#1080;&#1082;&#1072;.webp" width="1920" height="1160" alt="" title="excel_динамика">
+</div>
+<div id="excel_динамика-card-footer">excel_динамика</div>
+</div>
+<div id="wb_Access_база_данных" style="display:flex;z-index:45;" class="card">
+<div id="Access_база_данных-card-body">
+<img id="Access_база_данных-card-item0" src="images/Access_&#1073;&#1072;&#1079;&#1072;_&#1076;&#1072;&#1085;&#1085;&#1099;&#1093;.gif" width="1920" height="1160" alt="" title="Access_база_данных">
+</div>
+<div id="Access_база_данных-card-footer">Access_база_данных</div>
+</div>
+<div id="wb_Tableau1" style="display:flex;z-index:46;" class="card">
+<div id="Tableau1-card-body">
+<img id="Tableau1-card-item0" src="images/Tableau.webp" width="1919" height="1052" alt="" title="Tableau">
+</div>
+<div id="Tableau1-card-footer">Tableau</div>
+</div>
+<div id="wb_Яндекс_Метрика" style="display:flex;z-index:47;" class="card">
+<div id="Яндекс_Метрика-card-body">
+<div id="Яндекс_Метрика-card-item0"><a href="https://docs.google.com/presentation/d/1d7sLBa9Sdz-0KrXxC-N5MuavSVjfUIIG/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="Яндекс_Метрика"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="Яндекс_Метрика-card-item1" src="images/%5b&#1071;&#1085;&#1076;&#1077;&#1082;&#1089;_&#1052;&#1077;&#1090;&#1088;&#1080;&#1082;&#1072;.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="Яндекс_Метрика">
+</div>
+<div id="Яндекс_Метрика-card-footer">Яндекс_Метрика</div>
+</div>
+<div id="wb_связь_с_Google_Таблицами" style="display:flex;z-index:48;" class="card">
+<div id="связь_с_Google_Таблицами-card-body">
+<div id="связь_с_Google_Таблицами-card-item0"><a href="https://drive.google.com/file/d/16UqktdphboRWWL-f4-JXiz6DEqgnqk3I/view?usp=sharing" target="_blank" title="[связь_с_Google_Таблицами.pdf]_(508x310мм)_(508x310мм)_(150dpi)№1"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="связь_с_Google_Таблицами-card-item1" src="images/%5b&#1089;&#1074;&#1103;&#1079;&#1100;_&#1089;_Google_&#1058;&#1072;&#1073;&#1083;&#1080;&#1094;&#1072;&#1084;&#1080;.pdf%5d_%28508x310&#1084;&#1084;%29_%28508x310&#1084;&#1084;%29_%28150dpi%29&#8470;1.webp" width="3000" height="1829" alt="" title="[связь_с_Google_Таблицами.pdf]_(508x310мм)_(508x310мм)_(150dpi)№1">
+</div>
+<div id="связь_с_Google_Таблицами-card-footer">[связь_с_Google_Таблицами.pdf]_(508x310мм)_(508x310мм)_(150dpi)№1</div>
+</div>
+<div id="wb_ретроспективный_анализ" style="display:flex;z-index:49;" class="card">
+<div id="ретроспективный_анализ-card-body">
+<div id="ретроспективный_анализ-card-item0"><a href="https://docs.google.com/presentation/d/1MofhpJoeykUm0AtH5T6ctyU2QFkYMhaZ/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[ретроспективный_анализ.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="ретроспективный_анализ-card-item1" src="images/%5b&#1088;&#1077;&#1090;&#1088;&#1086;&#1089;&#1087;&#1077;&#1082;&#1090;&#1080;&#1074;&#1085;&#1099;&#1081;_&#1072;&#1085;&#1072;&#1083;&#1080;&#1079;.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[ретроспективный_анализ.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="ретроспективный_анализ-card-footer">[ретроспективный_анализ.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_Продажи_ABC_XYZ" style="display:flex;z-index:50;" class="card">
+<div id="Продажи_ABC_XYZ-card-body">
+<div id="Продажи_ABC_XYZ-card-item0"><a href="https://drive.google.com/file/d/1MYIi4HCpRijekV8SScF96ULlsF3Gyf9m/view?usp=sharing" target="_blank" title="[Продажи_ABC_XYZ.pdf]_(508x317мм)_(508x317мм)_(150dpi)№5"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="Продажи_ABC_XYZ-card-item1" src="images/%5b&#1055;&#1088;&#1086;&#1076;&#1072;&#1078;&#1080;_ABC_XYZ.pdf%5d_%28508x317&#1084;&#1084;%29_%28508x317&#1084;&#1084;%29_%28150dpi%29&#8470;5.webp" width="3000" height="1875" alt="" title="[Продажи_ABC_XYZ.pdf]_(508x317мм)_(508x317мм)_(150dpi)№5">
+</div>
+<div id="Продажи_ABC_XYZ-card-footer">[Продажи_ABC_XYZ.pdf]_(508x317мм)_(508x317мм)_(150dpi)№5</div>
+</div>
+<div id="wb_план_факт" style="display:flex;z-index:51;" class="card">
+<div id="план_факт-card-body">
+<div id="план_факт-card-item0"><a href="https://drive.google.com/drive/folders/1vVJK1MYmLEiZmBAxPNYvsIv5HBzv9FuF?usp=sharing" target="_blank" title="[план_факт.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="план_факт-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1085;_&#1092;&#1072;&#1082;&#1090;.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[план_факт.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="план_факт-card-footer">[план_факт.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_план_фактQS" style="display:flex;z-index:52;" class="card">
+<div id="план_фактQS-card-body">
+<div id="план_фактQS-card-item0"><a href="https://docs.google.com/presentation/d/1LJN2ncNwtYrqnA2BmUiJCIm6kQLFCdhy/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[план_фактQS.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="план_фактQS-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1085;_&#1092;&#1072;&#1082;&#1090;QS.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[план_фактQS.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="план_фактQS-card-footer">[план_фактQS.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_план_фактPB" style="display:flex;z-index:53;" class="card">
+<div id="план_фактPB-card-body">
+<div id="план_фактPB-card-item0"><a href="https://docs.google.com/presentation/d/1wapD06kskeEG1Tv1owV8g7x9NTBiaBUH/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[план_фактPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="план_фактPB-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1085;_&#1092;&#1072;&#1082;&#1090;PB.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[план_фактPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="план_фактPB-card-footer">[план_фактPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_план_фактFB" style="display:flex;z-index:54;" class="card">
+<div id="план_фактFB-card-body">
+<div id="план_фактFB-card-item0"><a href="https://drive.google.com/drive/folders/1vVJK1MYmLEiZmBAxPNYvsIv5HBzv9FuF?usp=sharing" target="_blank" title="[план_фактFB.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="план_фактFB-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1085;_&#1092;&#1072;&#1082;&#1090;FB.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[план_фактFB.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="план_фактFB-card-footer">[план_фактFB.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_Выбор_оператора" style="display:flex;z-index:55;" class="card">
+<div id="Выбор_оператора-card-body">
+<div id="Выбор_оператора-card-item0"><a href="https://drive.google.com/file/d/1Z892NGJn-fv3p_ciC55t6Jpz11MXgUo0/view?usp=sharing" target="_blank" title="[Выбор_оператора.pdf]_(508x317мм)_(508x317мм)_(150dpi)№7"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="Выбор_оператора-card-item1" src="images/%5b&#1042;&#1099;&#1073;&#1086;&#1088;_&#1086;&#1087;&#1077;&#1088;&#1072;&#1090;&#1086;&#1088;&#1072;.pdf%5d_%28508x317&#1084;&#1084;%29_%28508x317&#1084;&#1084;%29_%28150dpi%29&#8470;7.webp" width="3000" height="1875" alt="" title="[Выбор_оператора.pdf]_(508x317мм)_(508x317мм)_(150dpi)№7">
+</div>
+<div id="Выбор_оператора-card-footer">[Выбор_оператора.pdf]_(508x317мм)_(508x317мм)_(150dpi)№7</div>
+</div>
+<div id="wb_wildberries_Обувь_для_девочек" style="display:flex;z-index:56;" class="card">
+<div id="wildberries_Обувь_для_девочек-card-body">
+<div id="wildberries_Обувь_для_девочек-card-item0"><a href="https://docs.google.com/presentation/d/1yriNnvH8l64IdqLWn6EzjuQB9XzZpgDm/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[wildberries_Обувь_для_девочек.pdf]_(210x297мм)_(210x297мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="wildberries_Обувь_для_девочек-card-item1" src="images/%5bwildberries_&#1054;&#1073;&#1091;&#1074;&#1100;_&#1076;&#1083;&#1103;_&#1076;&#1077;&#1074;&#1086;&#1095;&#1077;&#1082;.pdf%5d_%28210x297&#1084;&#1084;%29_%28210x297&#1084;&#1084;%29_%28150dpi%29.webp" width="1240" height="1754" alt="" title="[wildberries_Обувь_для_девочек.pdf]_(210x297мм)_(210x297мм)_(150dpi)">
+</div>
+<div id="wildberries_Обувь_для_девочек-card-footer">[wildberries_Обувь_для_девочек.pdf]_(210x297мм)_(210x297мм)_(150dpi)</div>
+</div>
+<div id="wb_wildberries_Обувь_для_девочекPB" style="display:flex;z-index:57;" class="card">
+<div id="wildberries_Обувь_для_девочекPB-card-body">
+<div id="wildberries_Обувь_для_девочекPB-card-item0"><a href="https://docs.google.com/presentation/d/1UWPlF-FNjEurjk0Z1MXewtTIDuhn8-9a/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[wildberries_Обувь_для_девочекPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="wildberries_Обувь_для_девочекPB-card-item1" src="images/%5bwildberries_&#1054;&#1073;&#1091;&#1074;&#1100;_&#1076;&#1083;&#1103;_&#1076;&#1077;&#1074;&#1086;&#1095;&#1077;&#1082;PB.pdf%5d_%28339x190&#1084;&#1084;%29_%28339x190&#1084;&#1084;%29_%28150dpi%29.webp" width="2000" height="1125" alt="" title="[wildberries_Обувь_для_девочекPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)">
+</div>
+<div id="wildberries_Обувь_для_девочекPB-card-footer">[wildberries_Обувь_для_девочекPB.pdf]_(339x190мм)_(339x190мм)_(150dpi)</div>
+</div>
+<div id="wb_wildberries_Обувь_для_девочекE" style="display:flex;z-index:58;" class="card">
+<div id="wildberries_Обувь_для_девочекE-card-body">
+<div id="wildberries_Обувь_для_девочекE-card-item0"><a href="https://drive.google.com/file/d/1MG09FLOpes579ywlHDRm_KJQA3fNSkzk/view?usp=sharing" target="_blank" title="[wildberries_Обувь_для_девочекE.pdf]_(508x310мм)_(508x310мм)_(150dpi)№11"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="wildberries_Обувь_для_девочекE-card-item1" src="images/%5bwildberries_&#1054;&#1073;&#1091;&#1074;&#1100;_&#1076;&#1083;&#1103;_&#1076;&#1077;&#1074;&#1086;&#1095;&#1077;&#1082;E.pdf%5d_%28508x310&#1084;&#1084;%29_%28508x310&#1084;&#1084;%29_%28150dpi%29&#8470;11.webp" width="3000" height="1829" alt="" title="[wildberries_Обувь_для_девочекE.pdf]_(508x310мм)_(508x310мм)_(150dpi)№11">
+</div>
+<div id="wildberries_Обувь_для_девочекE-card-footer">[wildberries_Обувь_для_девочекE.pdf]_(508x310мм)_(508x310мм)_(150dpi)№11</div>
+</div>
+<div id="wb_olimpic_games" style="display:flex;z-index:59;" class="card">
+<div id="olimpic_games-card-body">
+<div id="olimpic_games-card-item0"><a href="https://drive.google.com/file/d/1a6WZfKNfB_JxnbAnBkVeSNMPFS05zACp/view?usp=sharing" target="_blank" title="[olimpic_games.pdf]_(508x317мм)_(508x317мм)_(150dpi)№19"><i class="fa fa-external-link"></i> Открыть презентацию</a></div>
+<img id="olimpic_games-card-item1" src="images/%5bolimpic_games.pdf%5d_%28508x317&#1084;&#1084;%29_%28508x317&#1084;&#1084;%29_%28150dpi%29&#8470;19.webp" width="3000" height="1875" alt="" title="[olimpic_games.pdf]_(508x317мм)_(508x317мм)_(150dpi)№19">
+</div>
+<div id="olimpic_games-card-footer">[olimpic_games.pdf]_(508x317мм)_(508x317мм)_(150dpi)№19</div>
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+<div id="wb_grafika">
+<div id="grafika-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 279.24" preserveAspectRatio="none">
+<path class="divider-fill" style="opacity:0.25" d="M1000 0S331.54-4.18 0 279.24h1000z"/>
+<path class="divider-fill" d="M1000 279.24s-339.56-44.3-522.95-109.6S132.86 23.76 0 25.15v254.09z"/>
+</svg></div>
+<div id="grafika">
+<div class="col-1">
+<div id="wb_grafica_head" style="display:block;width:100%;z-index:61;">
+<h1 id="grafica_head">ДИЗАЙН</h1>
+</div>
+<div id="wb_grafika_content">
+<p>Имею опыт и интерес в разработке презентаций, рекламных материалов и подготовке к печати визиток, буклетов, плакатов, верстке многостраничных изданий. Создание обучающих роликов и инструкций. Работы в основном выполнены в (Power Point, Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Corel Draw).</p>
+<br>
+<p>Буду рад сотрудничеству!</p>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_grafika_card" style="display:flex;width:100%;z-index:63;" class="card">
+<div id="grafika_card-card-body">
+<div id="grafika_card-card-item0">СКАЧАТЬ ВСЕ ФАЙЛЫ ПРОЕКТОВ И ПРЕЗЕНТАЦИЙ</div>
+<a href="https://drive.google.com/drive/folders/119GRgFq52PFlWxtzRfN1rse2aGs3xzKe" target="_blank" class="stretched-link"><img id="grafika_card-card-item1" src="grafika.svg" width="1080" height="1080" alt="" title=""></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_grafica_image">
+<div id="grafica_image">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="grafica_cardcont" class="owl-carousel owl-theme">
+<div id="wb_день_здоровья1" style="display:flex;z-index:64;" class="card">
+<div id="день_здоровья1-card-body">
+<div id="день_здоровья1-card-item0"><a href="https://drive.google.com/file/d/19gdIoBsbd-YGsDCrtnaUBzNxBY-T45Tr/view?usp=sharing" target="_blank" title="[630х450день_здоровья(1).pdf]_размер_(450x630мм)(450x630мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="день_здоровья1-card-item1" src="images/%5b630&#1093;450&#1076;&#1077;&#1085;&#1100;_&#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1103;%281%29.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28450x630&#1084;&#1084;%29%28450x630&#1084;&#1084;%29%28150_dpi%29.webp" width="857" height="1200" alt="" title="[630х450день_здоровья(1).pdf]_размер_(450x630мм)(450x630мм)(150_dpi)">
+</div>
+<div id="день_здоровья1-card-footer">[630х450день_здоровья(1).pdf]_размер_(450x630мм)(450x630мм)(150_dpi)</div>
+</div>
+<div id="wb_ева" style="display:flex;z-index:65;" class="card">
+<div id="ева-card-body">
+<div id="ева-card-item0"><a href="https://drive.google.com/file/d/1RBack-3ASYlJfLpg7d-7AFJ5B3d7VhY1/view?usp=sharing" target="_blank" title="[ева.pdf]_размер_(1200x1000мм)(1200x1000мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="ева-card-item1" src="images/%5b&#1077;&#1074;&#1072;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%281200x1000&#1084;&#1084;%29%281200x1000&#1084;&#1084;%29%28150_dpi%29.webp" width="1440" height="1200" alt="" title="[ева.pdf]_размер_(1200x1000мм)(1200x1000мм)(150_dpi)">
+</div>
+<div id="ева-card-footer">[ева.pdf]_размер_(1200x1000мм)(1200x1000мм)(150_dpi)</div>
+</div>
+<div id="wb_день_здоровья4" style="display:flex;z-index:66;" class="card">
+<div id="день_здоровья4-card-body">
+<div id="день_здоровья4-card-item0"><a href="https://drive.google.com/file/d/1KT0BTbVfAfW3GGY5p6Fr19QstlwOXfAg/view?usp=sharing" target="_blank" title="[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№4"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="день_здоровья4-card-item1" src="images/%5b630&#1093;450&#1076;&#1077;&#1085;&#1100;_&#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1103;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28450x630&#1084;&#1084;%29%28450x630&#1084;&#1084;%29%28150_dpi%29&#8470;4.webp" width="857" height="1200" alt="" title="[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№4">
+</div>
+<div id="день_здоровья4-card-footer">[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№4</div>
+</div>
+<div id="wb_день_здоровья8" style="display:flex;z-index:67;" class="card">
+<div id="день_здоровья8-card-body">
+<div id="день_здоровья8-card-item0"><a href="https://drive.google.com/file/d/1KT0BTbVfAfW3GGY5p6Fr19QstlwOXfAg/view?usp=sharing" target="_blank" title="[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№8"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="день_здоровья8-card-item1" src="images/%5b630&#1093;450&#1076;&#1077;&#1085;&#1100;_&#1079;&#1076;&#1086;&#1088;&#1086;&#1074;&#1100;&#1103;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28450x630&#1084;&#1084;%29%28450x630&#1084;&#1084;%29%28150_dpi%29&#8470;8.webp" width="857" height="1200" alt="" title="[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№8">
+</div>
+<div id="день_здоровья8-card-footer">[630х450день_здоровья.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)№8</div>
+</div>
+<div id="wb_плакат_УВТ" style="display:flex;z-index:68;" class="card">
+<div id="плакат_УВТ-card-body">
+<div id="плакат_УВТ-card-item0"><a href="https://drive.google.com/file/d/1yaQLzkg4aKxlKu2LxDKWlp4D02-hLdSJ/view?usp=sharing" target="_blank" title="[плакат_УВТ.pdf]_размер_(950x650мм)(950x650мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="плакат_УВТ-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1082;&#1072;&#1090;_&#1059;&#1042;&#1058;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28950x650&#1084;&#1084;%29%28950x650&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1754" height="1200" alt="" title="[плакат_УВТ.pdf]_размер_(950x650мм)(950x650мм)(150_dpi)№1">
+</div>
+<div id="плакат_УВТ-card-footer">[плакат_УВТ.pdf]_размер_(950x650мм)(950x650мм)(150_dpi)№1</div>
+</div>
+<div id="wb_doctor_solidus_maisi_Step" style="display:flex;z-index:69;" class="card">
+<div id="doctor_solidus_maisi_Step-card-body">
+<div id="doctor_solidus_maisi_Step-card-item0"><a href="https://drive.google.com/file/d/1ZdPz8ON2XSoLXDZQMRABRh6ovuw7LxyT/view?usp=sharing" target="_blank" title="[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="doctor_solidus_maisi_Step-card-item1" src="images/%5bdoctor_solidus_maisi_Step.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28403x216&#1084;&#1084;%29%28397x210&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1920" height="1016" alt="" title="[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№1">
+</div>
+<div id="doctor_solidus_maisi_Step-card-footer">[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№1</div>
+</div>
+<div id="wb_doctor_solidus_maisi_Ste№2" style="display:flex;z-index:70;" class="card">
+<div id="doctor_solidus_maisi_Ste№2-card-body">
+<div id="doctor_solidus_maisi_Ste№2-card-item0"><a href="https://drive.google.com/file/d/1ZdPz8ON2XSoLXDZQMRABRh6ovuw7LxyT/view?usp=sharing" target="_blank" title="[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="doctor_solidus_maisi_Ste№2-card-item1" src="images/%5bdoctor_solidus_maisi_Step.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28403x216&#1084;&#1084;%29%28397x210&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="1920" height="1016" alt="" title="[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№2">
+</div>
+<div id="doctor_solidus_maisi_Ste№2-card-footer">[doctor_solidus_maisi_Step.pdf]_размер_(403x216мм)(397x210мм)(150_dpi)№2</div>
+</div>
+<div id="wb_Liflet_MM_ortobel" style="display:flex;z-index:71;" class="card">
+<div id="Liflet_MM_ortobel-card-body">
+<div id="Liflet_MM_ortobel-card-item0"><a href="https://drive.google.com/file/d/1qY7huhfPy5Q1CGIxao6qZkm8-3kPIm-J/view?usp=sharing" target="_blank" title="[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Liflet_MM_ortobel-card-item1" src="images/%5bLiflet_MM_ortobel.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28307x222&#1084;&#1084;%29%28301x216&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1672" height="1200" alt="" title="[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№1">
+</div>
+<div id="Liflet_MM_ortobel-card-footer">[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№1</div>
+</div>
+<div id="wb_Liflet_MM_ortobel2" style="display:flex;z-index:72;" class="card">
+<div id="Liflet_MM_ortobel2-card-body">
+<div id="Liflet_MM_ortobel2-card-item0"><a href="https://drive.google.com/file/d/1qY7huhfPy5Q1CGIxao6qZkm8-3kPIm-J/view?usp=sharing" target="_blank" title="[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Liflet_MM_ortobel2-card-item1" src="images/%5bLiflet_MM_ortobel.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28307x222&#1084;&#1084;%29%28301x216&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="1672" height="1200" alt="" title="[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№2">
+</div>
+<div id="Liflet_MM_ortobel2-card-footer">[Liflet_MM_ortobel.pdf]_размер_(307x222мм)(301x216мм)(150_dpi)№2<br></div>
+</div>
+<div id="wb_акция_8_марта" style="display:flex;z-index:73;" class="card">
+<div id="акция_8_марта-card-body">
+<div id="акция_8_марта-card-item0"><a href="https://drive.google.com/file/d/1XGEUK4Oqm8u9iCIjRaJ70MmOvRxsZAMj/view?usp=sharing" target="_blank" title="[акция_8_марта_2017_630.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="акция_8_марта-card-item1" src="images/%5b&#1072;&#1082;&#1094;&#1080;&#1103;_8_&#1084;&#1072;&#1088;&#1090;&#1072;_2017_630.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28450x630&#1084;&#1084;%29%28450x630&#1084;&#1084;%29%28150_dpi%29.webp" width="857" height="1200" alt="" title="[акция_8_марта_2017_630.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)">
+</div>
+<div id="акция_8_марта-card-footer">[акция_8_марта_2017_630.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)<br></div>
+</div>
+<div id="wb_визитка_Берсенева" style="display:flex;z-index:74;" class="card">
+<div id="визитка_Берсенева-card-body">
+<div id="визитка_Берсенева-card-item0"><a href="https://drive.google.com/file/d/1LXsivsL1FZlntcN3axDZNkDQ49gTM3AG/view?usp=sharing" target="_blank" title="[визитка_Берсенева.pdf]_размер_(96x56мм)(90x50мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="визитка_Берсенева-card-item1" src="images/%5b&#1074;&#1080;&#1079;&#1080;&#1090;&#1082;&#1072;_&#1041;&#1077;&#1088;&#1089;&#1077;&#1085;&#1077;&#1074;&#1072;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%2896x56&#1084;&#1084;%29%2890x50&#1084;&#1084;%29%28150_dpi%29.webp" width="531" height="295" alt="" title="[визитка_Берсенева.pdf]_размер_(96x56мм)(90x50мм)(150_dpi)">
+</div>
+<div id="визитка_Берсенева-card-footer">[визитка_Берсенева.pdf]_размер_(96x56мм)(90x50мм)(150_dpi)</div>
+</div>
+<div id="wb_плакат" style="display:flex;z-index:75;" class="card">
+<div id="плакат-card-body">
+<div id="плакат-card-item0"><a href="https://drive.google.com/file/d/1oUUoTUswMaSuXC4vxNxcZkU6RjV_dCXN/view?usp=sharing" target="_blank" title="[плакат.pdf]_размер_(600x600мм)(600x600мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="плакат-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1082;&#1072;&#1090;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28600x600&#1084;&#1084;%29%28600x600&#1084;&#1084;%29%28150_dpi%29.webp" width="1200" height="1200" alt="" title="[плакат.pdf]_размер_(600x600мм)(600x600мм)(150_dpi)">
+</div>
+<div id="плакат-card-footer">[плакат.pdf]_размер_(600x600мм)(600x600мм)(150_dpi)<br></div>
+</div>
+<div id="wb_Universal_recipe_2019_Питер" style="display:flex;z-index:76;" class="card">
+<div id="Universal_recipe_2019_Питер-card-body">
+<div id="Universal_recipe_2019_Питер-card-item0"><a href="https://drive.google.com/file/d/12PBOqj1K0ED3_jkcZKj4uqlZWYdbNyfz/view?usp=sharing" target="_blank" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Universal_recipe_2019_Питер-card-item1" src="images/%5bUniversal_recipe_2019_&#1055;&#1080;&#1090;&#1077;&#1088;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28216x154&#1084;&#1084;%29%28210x148&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1240" height="874" alt="" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1">
+</div>
+<div id="Universal_recipe_2019_Питер-card-footer">[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1<br></div>
+</div>
+<div id="wb_стопа" style="display:flex;z-index:77;" class="card">
+<div id="стопа-card-body">
+<div id="стопа-card-item0"><a href="https://drive.google.com/file/d/1_MaMoHhpdHEEV8K10QgDUyRAQCs0DUyj/view?usp=sharing" target="_blank" title="[стопа.pdf]_размер_(500x700мм)(500x700мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="стопа-card-item1" src="images/%5b&#1089;&#1090;&#1086;&#1087;&#1072;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28500x700&#1084;&#1084;%29%28500x700&#1084;&#1084;%29%28150_dpi%29.webp" width="857" height="1200" alt="" title="[стопа.pdf]_размер_(500x700мм)(500x700мм)(150_dpi)">
+</div>
+<div id="стопа-card-footer">[стопа.pdf]_размер_(500x700мм)(500x700мм)(150_dpi)<br></div>
+</div>
+<div id="wb_подушка630х450" style="display:flex;z-index:78;" class="card">
+<div id="подушка630х450-card-body">
+<div id="подушка630х450-card-item0"><a href="https://drive.google.com/file/d/1pAgutX6sGpigWHQzhLdNM0cqbKi90rAZ/view?usp=sharing" target="_blank" title="[подушка630х450.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="подушка630х450-card-item1" src="images/%5b&#1087;&#1086;&#1076;&#1091;&#1096;&#1082;&#1072;630&#1093;450.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28450x630&#1084;&#1084;%29%28450x630&#1084;&#1084;%29%28150_dpi%29.webp" width="857" height="1200" alt="" title="[подушка630х450.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)">
+</div>
+<div id="подушка630х450-card-footer">[подушка630х450.pdf]_размер_(450x630мм)(450x630мм)(150_dpi)<br></div>
+</div>
+<div id="wb_беременные" style="display:flex;z-index:79;" class="card">
+<div id="беременные-card-body">
+<div id="беременные-card-item0"><a href="https://drive.google.com/file/d/1CGm5Dzj-hBd7UC_b5YFU1O0H6G0lO7Uo/view?usp=sharing" target="_blank" title="[беременные.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="беременные-card-item1" src="images/%5b&#1073;&#1077;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1099;&#1077;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28210x297&#1084;&#1084;%29%28210x297&#1084;&#1084;%29%28150_dpi%29.webp" width="848" height="1200" alt="" title="[беременные.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)">
+</div>
+<div id="беременные-card-footer">[беременные.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)<br></div>
+</div>
+<div id="wb_педиатрия" style="display:flex;z-index:80;" class="card">
+<div id="педиатрия-card-body">
+<div id="педиатрия-card-item0"><a href="https://docs.google.com/presentation/d/1ZuLJ9wbyeXa3lJ4ayOhzblW8P5M2NIc4/edit?usp=sharing&ouid=112331596070667543898&rtpof=true&sd=true" target="_blank" title="[педиатрия.pdf]_размер_(254x190мм)(254x190мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="педиатрия-card-item1" src="images/%5b&#1087;&#1077;&#1076;&#1080;&#1072;&#1090;&#1088;&#1080;&#1103;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28254x190&#1084;&#1084;%29%28254x190&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="1500" height="1125" alt="" title="[педиатрия.pdf]_размер_(254x190мм)(254x190мм)(150_dpi)№2">
+</div>
+<div id="педиатрия-card-footer">[педиатрия.pdf]_размер_(254x190мм)(254x190мм)(150_dpi)№2<br></div>
+</div>
+<div id="wb_яркая_весна_2" style="display:flex;z-index:81;" class="card">
+<div id="яркая_весна_2-card-body">
+<div id="яркая_весна_2-card-item0"><a href="https://drive.google.com/file/d/1qpfYCyQVR4XPXc0ixS3YpH7WAAkzgF9M/view?usp=sharing" target="_blank" title="[яркая_весна_2.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="яркая_весна_2-card-item1" src="images/%5b&#1103;&#1088;&#1082;&#1072;&#1103;_&#1074;&#1077;&#1089;&#1085;&#1072;_2.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28210x297&#1084;&#1084;%29%28210x297&#1084;&#1084;%29%28150_dpi%29.webp" width="848" height="1200" alt="" title="[яркая_весна_2.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)">
+</div>
+<div id="яркая_весна_2-card-footer">[яркая_весна_2.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)<br></div>
+</div>
+<div id="wb_полезные_советы_2" style="display:flex;z-index:82;" class="card">
+<div id="полезные_советы_2-card-body">
+<div id="полезные_советы_2-card-item0"><a href="https://drive.google.com/file/d/15RcLmNsj9bmDIHXlW29w7XvCt8vX42vy/view?usp=sharing" target="_blank" title="[полезные_советы_2.pdf]_размер_(200x210мм)(200x210мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="полезные_советы_2-card-item1" src="images/%5b&#1087;&#1086;&#1083;&#1077;&#1079;&#1085;&#1099;&#1077;_&#1089;&#1086;&#1074;&#1077;&#1090;&#1099;_2.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28200x210&#1084;&#1084;%29%28200x210&#1084;&#1084;%29%28150_dpi%29.webp" width="1143" height="1200" alt="" title="[полезные_советы_2.pdf]_размер_(200x210мм)(200x210мм)(150_dpi)">
+</div>
+<div id="полезные_советы_2-card-footer">[полезные_советы_2.pdf]_размер_(200x210мм)(200x210мм)(150_dpi)<br></div>
+</div>
+<div id="wb_Путешествуйте_с_комфортом_20" style="display:flex;z-index:83;" class="card">
+<div id="Путешествуйте_с_комфортом_20-card-body">
+<div id="Путешествуйте_с_комфортом_20-card-item0"><a href="https://drive.google.com/file/d/107vaQO8aDoZpFOUEWnz5KafuW1sS6mkk/view?usp=sharing" target="_blank" title="[Путешествуйте_с_комфортом_20_medi_travel_РЕГИОНЫ.pdf]_размер_(220x307мм)(210x297мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Путешествуйте_с_комфортом_20-card-item1" src="images/%5b&#1055;&#1091;&#1090;&#1077;&#1096;&#1077;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;_&#1089;_&#1082;&#1086;&#1084;&#1092;&#1086;&#1088;&#1090;&#1086;&#1084;_20_medi_travel_&#1056;&#1045;&#1043;&#1048;&#1054;&#1053;&#1067;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28220x307&#1084;&#1084;%29%28210x297&#1084;&#1084;%29%28150_dpi%29.webp" width="848" height="1200" alt="" title="[Путешествуйте_с_комфортом_20_medi_travel_РЕГИОНЫ.pdf]_размер_(220x307мм)(210x297мм)(150_dpi)">
+</div>
+<div id="Путешествуйте_с_комфортом_20-card-footer">[Путешествуйте_с_комфортом_20_medi_travel_РЕГИОНЫ.pdf]_размер_(220x307мм)(210x297мм)(150_dpi)<br></div>
+</div>
+<div id="wb_стелькиА4" style="display:flex;z-index:84;" class="card">
+<div id="стелькиА4-card-body">
+<div id="стелькиА4-card-item0"><a href="https://drive.google.com/file/d/1JebbkAMI93PxEEmtw3kup3NYqs24daAy/view?usp=sharing" target="_blank" title="[стелькиА4.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="стелькиА4-card-item1" src="images/%5b&#1089;&#1090;&#1077;&#1083;&#1100;&#1082;&#1080;&#1040;4.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28210x297&#1084;&#1084;%29%28210x297&#1084;&#1084;%29%28150_dpi%29.webp" width="848" height="1200" alt="" title="[стелькиА4.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)">
+</div>
+<div id="стелькиА4-card-footer">[стелькиА4.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)<br></div>
+</div>
+<div id="wb_strit_line_standart_5" style="display:flex;z-index:85;" class="card">
+<div id="strit_line_standart_5-card-body">
+<div id="strit_line_standart_5-card-item0"><a href="https://drive.google.com/file/d/1QpEmYkR7AQ-5DDgpUR1zWWaVo2vpEQGl/view?usp=sharing" target="_blank" title="[strit_line_standart_5.pdf]_размер_(700x1300мм)(700x1300мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="strit_line_standart_5-card-item1" src="images/%5bstrit_line_standart_5.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28700x1300&#1084;&#1084;%29%28700x1300&#1084;&#1084;%29%28150_dpi%29.webp" width="646" height="1200" alt="" title="[strit_line_standart_5.pdf]_размер_(700x1300мм)(700x1300мм)(150_dpi)">
+</div>
+<div id="strit_line_standart_5-card-footer">[strit_line_standart_5.pdf]_размер_(700x1300мм)(700x1300мм)(150_dpi)<br></div>
+</div>
+<div id="wb_Universal_recipe_2019" style="display:flex;z-index:86;" class="card">
+<div id="Universal_recipe_2019-card-body">
+<div id="Universal_recipe_2019-card-item0"><a href="https://drive.google.com/file/d/12PBOqj1K0ED3_jkcZKj4uqlZWYdbNyfz/view?usp=sharing" target="_blank" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Universal_recipe_2019-card-item1" src="images/%5bUniversal_recipe_2019_&#1055;&#1080;&#1090;&#1077;&#1088;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28216x154&#1084;&#1084;%29%28210x148&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1240" height="874" alt="" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1">
+</div>
+<div id="Universal_recipe_2019-card-footer">[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№1<br></div>
+</div>
+<div id="wb_Universal_recipe_201" style="display:flex;z-index:87;" class="card">
+<div id="Universal_recipe_201-card-body">
+<div id="Universal_recipe_201-card-item0"><a href="https://drive.google.com/file/d/1EpBMfXoQIUYCreGEPRkKomHpplOXdGYG/view?usp=sharing" target="_blank" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№9"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Universal_recipe_201-card-item1" src="images/%5bUniversal_recipe_2019_&#1055;&#1080;&#1090;&#1077;&#1088;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28216x154&#1084;&#1084;%29%28210x148&#1084;&#1084;%29%28150_dpi%29&#8470;9.webp" width="1240" height="874" alt="" title="[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№9">
+</div>
+<div id="Universal_recipe_201-card-footer">[Universal_recipe_2019_Питер.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)№9<br></div>
+</div>
+<div id="wb_а_окт" style="display:flex;z-index:88;" class="card">
+<div id="а_окт-card-body">
+<div id="а_окт-card-item0"><a href="https://drive.google.com/file/d/1saxIzi41mFyZEftX-lv4G5K1U3LFfQFB/view?usp=sharing" target="_blank" title="[а3_окт.pdf]_размер_(297x420мм)(297x420мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="а_окт-card-item1" src="images/%5b&#1072;3_&#1086;&#1082;&#1090;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28297x420&#1084;&#1084;%29%28297x420&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="849" height="1200" alt="" title="[а3_окт.pdf]_размер_(297x420мм)(297x420мм)(150_dpi)№1">
+</div>
+<div id="а_окт-card-footer">[а3_окт.pdf]_размер_(297x420мм)(297x420мм)(150_dpi)№1<br></div>
+</div>
+<div id="wb_буклеторецепт" style="display:flex;z-index:89;" class="card">
+<div id="буклеторецепт-card-body">
+<div id="буклеторецепт-card-item0"><a href="https://drive.google.com/file/d/1-TQQ9AlaHVhmrPPV9t0_oxwCHFm6gp_0/view?usp=sharing" target="_blank" title="[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№3"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="буклеторецепт-card-item1" src="images/%5b&#1073;&#1091;&#1082;&#1083;&#1077;&#1090;&#1086;&#1088;&#1077;&#1094;&#1077;&#1087;&#1090;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28111x154&#1084;&#1084;%29%28105x148&#1084;&#1084;%29%28150_dpi%29&#8470;3.webp" width="620" height="874" alt="" title="[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№3">
+</div>
+<div id="буклеторецепт-card-footer">[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№3<br></div>
+</div>
+<div id="wb_буклеторецеп" style="display:flex;z-index:90;" class="card">
+<div id="буклеторецеп-card-body">
+<div id="буклеторецеп-card-item0"><a href="https://drive.google.com/file/d/1-TQQ9AlaHVhmrPPV9t0_oxwCHFm6gp_0/view?usp=sharing" target="_blank" title="[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="буклеторецеп-card-item1" src="images/%5b&#1073;&#1091;&#1082;&#1083;&#1077;&#1090;&#1086;&#1088;&#1077;&#1094;&#1077;&#1087;&#1090;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28111x154&#1084;&#1084;%29%28105x148&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="620" height="874" alt="" title="[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№2">
+</div>
+<div id="буклеторецеп-card-footer">[буклеторецепт.pdf]_размер_(111x154мм)(105x148мм)(150_dpi)№2<br></div>
+</div>
+<div id="wb_визитка_Огородников" style="display:flex;z-index:91;" class="card">
+<div id="визитка_Огородников-card-body">
+<div id="визитка_Огородников-card-item0"><a href="https://drive.google.com/file/d/19zXPTihqctLmgg_nlIBAFmxoCM05mhjR/view?usp=sharing" target="_blank" title="[визитка_Огородников.pdf]_размер_(91x61мм)(85x55мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="визитка_Огородников-card-item1" src="images/%5b&#1074;&#1080;&#1079;&#1080;&#1090;&#1082;&#1072;_&#1054;&#1075;&#1086;&#1088;&#1086;&#1076;&#1085;&#1080;&#1082;&#1086;&#1074;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%2891x61&#1084;&#1084;%29%2885x55&#1084;&#1084;%29%28150_dpi%29.webp" width="502" height="325" alt="" title="[визитка_Огородников.pdf]_размер_(91x61мм)(85x55мм)(150_dpi)">
+</div>
+<div id="визитка_Огородников-card-footer">[визитка_Огородников.pdf]_размер_(91x61мм)(85x55мм)(150_dpi)<br></div>
+</div>
+<div id="wb_визитка_магазинов" style="display:flex;z-index:92;" class="card">
+<div id="визитка_магазинов-card-body">
+<div id="визитка_магазинов-card-item0"><a href="https://drive.google.com/file/d/1XEiG-NhUTBfz0Wm-jqaE1W5NLaPUF2_K/view?usp=sharing" target="_blank" title="[визитка_магазинов.pdf]_размер_(113x73мм)(90x50мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="визитка_магазинов-card-item1" src="images/%5b&#1074;&#1080;&#1079;&#1080;&#1090;&#1082;&#1072;_&#1084;&#1072;&#1075;&#1072;&#1079;&#1080;&#1085;&#1086;&#1074;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28113x73&#1084;&#1084;%29%2890x50&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="531" height="295" alt="" title="[визитка_магазинов.pdf]_размер_(113x73мм)(90x50мм)(150_dpi)№2">
+</div>
+<div id="визитка_магазинов-card-footer">[визитка_магазинов.pdf]_размер_(113x73мм)(90x50мм)(150_dpi)№2<br></div>
+</div>
+<div id="wb_пластиковая_карта_брил_8" style="display:flex;z-index:93;" class="card">
+<div id="пластиковая_карта_брил_8-card-body">
+<div id="пластиковая_карта_брил_8-card-item0"><a href="https://drive.google.com/file/d/16zXJis-Ja3lCNrc9ZP5nmv_ac2aKrZvo/view?usp=sharing" target="_blank" title="[пластиковая_карта_брил_8.pdf]_размер_(150x150мм)(150x150мм)(150_dpi)№2"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="пластиковая_карта_брил_8-card-item1" src="images/%5b&#1087;&#1083;&#1072;&#1089;&#1090;&#1080;&#1082;&#1086;&#1074;&#1072;&#1103;_&#1082;&#1072;&#1088;&#1090;&#1072;_&#1073;&#1088;&#1080;&#1083;_8.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28150x150&#1084;&#1084;%29%28150x150&#1084;&#1084;%29%28150_dpi%29&#8470;2.webp" width="531" height="343" alt="" title="[пластиковая_карта_брил_8.pdf]_размер_(150x150мм)(150x150мм)(150_dpi)№2">
+</div>
+<div id="пластиковая_карта_брил_8-card-footer">[пластиковая_карта_брил_8.pdf]_размер_(150x150мм)(150x150мм)(150_dpi)№2<br></div>
+</div>
+<div id="wb_Новогодняя_скидка_20" style="display:flex;z-index:94;" class="card">
+<div id="Новогодняя_скидка_20-card-body">
+<div id="Новогодняя_скидка_20-card-item0"><a href="https://drive.google.com/file/d/1e3mG05S5F7yN6gqEMFo7rHHiFvcpzuV_/view?usp=sharing" target="_blank" title="[Новогодняя_скидка_20.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="Новогодняя_скидка_20-card-item1" src="images/%5b&#1053;&#1086;&#1074;&#1086;&#1075;&#1086;&#1076;&#1085;&#1103;&#1103;_&#1089;&#1082;&#1080;&#1076;&#1082;&#1072;_20.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28210x297&#1084;&#1084;%29%28210x297&#1084;&#1084;%29%28150_dpi%29.webp" width="848" height="1200" alt="" title="[Новогодняя_скидка_20.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)">
+</div>
+<div id="Новогодняя_скидка_20-card-footer">[Новогодняя_скидка_20.pdf]_размер_(210x297мм)(210x297мм)(150_dpi)<br></div>
+</div>
+<div id="wb_НК_лицевая_ЦФ" style="display:flex;z-index:95;" class="card">
+<div id="НК_лицевая_ЦФ-card-body">
+<div id="НК_лицевая_ЦФ-card-item0"><a href="https://drive.google.com/file/d/1Xc08OFpgfHp815opQNR3FBrTHQ_URUc0/view?usp=sharing" target="_blank" title="[НК_лицевая_ЦФ.pdf]_размер_(98x174мм)(94x170мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="НК_лицевая_ЦФ-card-item1" src="images/%5b&#1053;&#1050;_&#1083;&#1080;&#1094;&#1077;&#1074;&#1072;&#1103;_&#1062;&#1060;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%2898x174&#1084;&#1084;%29%2894x170&#1084;&#1084;%29%28150_dpi%29.webp" width="555" height="1004" alt="" title="[НК_лицевая_ЦФ.pdf]_размер_(98x174мм)(94x170мм)(150_dpi)">
+</div>
+<div id="НК_лицевая_ЦФ-card-footer">[НК_лицевая_ЦФ.pdf]_размер_(98x174мм)(94x170мм)(150_dpi)<br></div>
+</div>
+<div id="wb_купюра_3" style="display:flex;z-index:96;" class="card">
+<div id="купюра_3-card-body">
+<div id="купюра_3-card-item0"><a href="https://drive.google.com/file/d/1RuYgpBRemang7ZlbKqzStgB6oAZ02n6U/view?usp=sharing" target="_blank" title="[купюра_3мм.pdf]_размер_(175x79мм)(169x73мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="купюра_3-card-item1" src="images/%5b&#1082;&#1091;&#1087;&#1102;&#1088;&#1072;_3&#1084;&#1084;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28175x79&#1084;&#1084;%29%28169x73&#1084;&#1084;%29%28150_dpi%29.webp" width="998" height="431" alt="" title="[купюра_3мм.pdf]_размер_(175x79мм)(169x73мм)(150_dpi)">
+</div>
+<div id="купюра_3-card-footer">[купюра_3мм.pdf]_размер_(175x79мм)(169x73мм)(150_dpi)<br></div>
+</div>
+<div id="wb_купон_лиговский_открытие" style="display:flex;z-index:97;" class="card">
+<div id="купон_лиговский_открытие-card-body">
+<div id="купон_лиговский_открытие-card-item0"><a href="https://drive.google.com/file/d/1gseWyqrad5UUe5myZUiBGMTbCwNmhYJT/view?usp=sharing" target="_blank" title="[купон_лиговский_открытие.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="купон_лиговский_открытие-card-item1" src="images/%5b&#1082;&#1091;&#1087;&#1086;&#1085;_&#1083;&#1080;&#1075;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;_&#1086;&#1090;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077;.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28216x154&#1084;&#1084;%29%28210x148&#1084;&#1084;%29%28150_dpi%29.webp" width="1240" height="874" alt="" title="[купон_лиговский_открытие.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)">
+</div>
+<div id="купон_лиговский_открытие-card-footer">[купон_лиговский_открытие.pdf]_размер_(216x154мм)(210x148мм)(150_dpi)<br></div>
+</div>
+<div id="wb_купон_igli" style="display:flex;z-index:98;" class="card">
+<div id="купон_igli-card-body">
+<div id="купон_igli-card-item0"><a href="https://drive.google.com/file/d/1gLUZIAsalc4QcSAK34Glm3b9WfUTTaQF/view?usp=sharing" target="_blank" title="[купон_igli.pdf]_размер_(131x94мм)(125x88мм)(150_dpi)"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="купон_igli-card-item1" src="images/%5b&#1082;&#1091;&#1087;&#1086;&#1085;_igli.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28131x94&#1084;&#1084;%29%28125x88&#1084;&#1084;%29%28150_dpi%29.webp" width="738" height="520" alt="" title="[купон_igli.pdf]_размер_(131x94мм)(125x88мм)(150_dpi)">
+</div>
+<div id="купон_igli-card-footer">[купон_igli.pdf]_размер_(131x94мм)(125x88мм)(150_dpi)<br></div>
+</div>
+<div id="wb_подготовка_к_печати_print" style="display:flex;z-index:99;" class="card">
+<div id="подготовка_к_печати_print-card-body">
+<div id="подготовка_к_печати_print-card-item0"><a href="https://drive.google.com/file/d/1BZAsgV56PSCsmLPYHZwQnQT8znA8c6pM/view?usp=sharing" target="_blank" title="[подготовка_к_печати_print_210_90_1.pdf]_размер_(210x90мм)(210x90мм)(150_dpi)№1"><i class="fa fa-external-link"></i> Открыть исходник</a></div>
+<img id="подготовка_к_печати_print-card-item1" src="images/%5b&#1087;&#1086;&#1076;&#1075;&#1086;&#1090;&#1086;&#1074;&#1082;&#1072;_&#1082;_&#1087;&#1077;&#1095;&#1072;&#1090;&#1080;_print_210_90_1.pdf%5d_&#1088;&#1072;&#1079;&#1084;&#1077;&#1088;_%28210x90&#1084;&#1084;%29%28210x90&#1084;&#1084;%29%28150_dpi%29&#8470;1.webp" width="1240" height="531" alt="" title="[подготовка_к_печати_print_210_90_1.pdf]_размер_(210x90мм)(210x90мм)(150_dpi)№1">
+</div>
+<div id="подготовка_к_печати_print-card-footer">[подготовка_к_печати_print_210_90_1.pdf]_размер_(210x90мм)(210x90мм)(150_dpi)№1<br></div>
+</div>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
+<div id="wb_footer">
+<div id="footer-divider-top">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 279.24" preserveAspectRatio="none">
+<path class="divider-fill" style="opacity:0.25" d="M1000 0S331.54-4.18 0 279.24h1000z"/>
+<path class="divider-fill" d="M1000 279.24s-339.56-44.3-522.95-109.6S132.86 23.76 0 25.15v254.09z"/>
+</svg></div>
+<div id="footer">
+<div class="col-1">
+
+<div id="wb_email">
+<p>2024 © <a href="mailto:drkorobov@gmail.com" class="style1">drkorobov@gmail.com</a></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

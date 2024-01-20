@@ -1,0 +1,7507 @@
+html, body, #container
+{
+   width: 100%;
+   height: 100%;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+#wb_analitika
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#analitika
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#wb_header
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: swoop-in 1000ms linear 0ms 1 normal both;
+}
+#header
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 20px 0 20px 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#header > .col-1, #header > .col-2, #header > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#header > .col-1, #header > .col-2, #header > .col-3
+{
+   flex: 0 0 auto;
+}
+#header > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+#header > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 66.66666667%;
+   max-width: 66.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#header > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 25%;
+   max-width: 25%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#header > .col-1, #header > .col-2, #header > .col-3
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#header-divider-top
+{
+   overflow: hidden;
+   position: absolute;
+   top: 0%;
+   width: 100%;
+   height: 50px;
+   line-height: 0;
+   left: 0;
+   transform: scale(-1.0, -1.0);
+}
+#header-divider-top svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+}
+#header-divider-top .divider-fill
+{
+   fill: #FF0000;
+   transform-origin: bottom;
+   transform: rotateY(0deg);
+}
+#wb_logo
+{
+   margin: 0;
+   vertical-align: top;
+}
+#logo
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   display: inline-block;
+   width: 70px;
+   height: 70px;
+   vertical-align: top;
+}
+#wb_potroha
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 5px solid #FF0000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#potroha
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0 0 10px 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#potroha > .col-1, #potroha > .col-2, #potroha > .col-3, #potroha > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#potroha > .col-1, #potroha > .col-2, #potroha > .col-3, #potroha > .col-4
+{
+   flex: 0 0 auto;
+}
+#potroha > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 50%;
+   max-width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+#potroha > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+#potroha > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+#potroha > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#potroha > .col-1, #potroha > .col-2, #potroha > .col-3, #potroha > .col-4
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 64px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+}
+#wb_analit_text
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FF0000;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#analit_text
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 20px 0 20px 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#analit_text > .col-1, #analit_text > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#analit_text > .col-1, #analit_text > .col-2
+{
+   flex: 0 0 auto;
+}
+#analit_text > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   align-self: stretch;
+   align-items: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#analit_text > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 83.33333333%;
+   max-width: 83.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#analit_text > .col-1, #analit_text > .col-2
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#analit_text-divider-top
+{
+   overflow: hidden;
+   position: absolute;
+   top: 0%;
+   width: 100%;
+   height: 0px;
+   line-height: 0;
+   left: 0;
+   transform: scaleY(-1.0);
+   transition: height 2000ms ease;
+}
+#analit_text-divider-top svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+}
+#analit_text-divider-top .divider-fill
+{
+   fill: #000000;
+   transform-origin: bottom;
+   transform: rotateY(0deg);
+}
+#analit_text-divider-top.show
+{
+   height: 300px;
+}
+#wb_analit_image
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 5px solid #FF0000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#analit_image
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#analit_image > .col-1, #analit_image > .col-2, #analit_image > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#analit_image > .col-1, #analit_image > .col-2, #analit_image > .col-3
+{
+   flex: 0 0 auto;
+}
+#analit_image > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#analit_image > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 83.33333333%;
+   max-width: 83.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#analit_image > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#analit_image > .col-1, #analit_image > .col-2, #analit_image > .col-3
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_excel_vb
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_vb-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_vb-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_vb-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_vb-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_категоризация
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_категоризация-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_категоризация-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_категоризация-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_категоризация-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_карта
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_карта-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_карта-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_карта-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_карта-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_grafika
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#grafika
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 20px 0 20px 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#grafika > .col-1, #grafika > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#grafika > .col-1, #grafika > .col-2
+{
+   flex: 0 0 auto;
+}
+#grafika > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 83.33333333%;
+   max-width: 83.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   align-self: stretch;
+   align-items: flex-end;
+   justify-content: flex-start;
+   text-align: left;
+}
+#grafika > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#grafika > .col-1, #grafika > .col-2
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#grafika-divider-top
+{
+   overflow: hidden;
+   position: absolute;
+   top: 0%;
+   width: 100%;
+   height: 0px;
+   line-height: 0;
+   left: 0;
+   transition: height 2000ms ease;
+}
+#grafika-divider-top svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+}
+#grafika-divider-top .divider-fill
+{
+   fill: #FF0000;
+   transform-origin: bottom;
+   transform: rotateY(0deg);
+}
+#grafika-divider-top.show
+{
+   height: 300px;
+}
+#wb_grafica_image
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 5px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#grafica_image
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#grafica_image > .col-1, #grafica_image > .col-2, #grafica_image > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#grafica_image > .col-1, #grafica_image > .col-2, #grafica_image > .col-3
+{
+   flex: 0 0 auto;
+}
+#grafica_image > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#grafica_image > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 83.33333333%;
+   max-width: 83.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#grafica_image > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 8.33333333%;
+   max-width: 8.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#grafica_image > .col-1, #grafica_image > .col-2, #grafica_image > .col-3
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_ева
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 65%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#ева-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#ева-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#ева-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#ева-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#ева-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#ева-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#ева-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_день_здоровья1
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#день_здоровья1-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#день_здоровья1-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья1-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#день_здоровья1-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#день_здоровья1-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#день_здоровья1-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья1-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_день_здоровья4
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#день_здоровья4-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#день_здоровья4-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья4-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#день_здоровья4-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#день_здоровья4-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#день_здоровья4-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья4-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_doctor_solidus_maisi_Ste№2
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#doctor_solidus_maisi_Ste№2-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#doctor_solidus_maisi_Ste№2-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#doctor_solidus_maisi_Ste№2-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#doctor_solidus_maisi_Ste№2-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#doctor_solidus_maisi_Ste№2-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#doctor_solidus_maisi_Ste№2-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#doctor_solidus_maisi_Ste№2-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_акция_8_марта
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#акция_8_марта-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#акция_8_марта-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#акция_8_марта-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#акция_8_марта-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#акция_8_марта-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#акция_8_марта-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#акция_8_марта-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_стопа
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#стопа-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#стопа-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#стопа-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#стопа-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#стопа-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#стопа-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#стопа-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_яркая_весна_2
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#яркая_весна_2-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#яркая_весна_2-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#яркая_весна_2-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#яркая_весна_2-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#яркая_весна_2-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#яркая_весна_2-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#яркая_весна_2-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Universal_recipe_201
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Universal_recipe_201-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Universal_recipe_201-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_201-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Universal_recipe_201-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Universal_recipe_201-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Universal_recipe_201-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_201-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_буклеторецепт
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#буклеторецепт-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#буклеторецепт-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#буклеторецепт-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#буклеторецепт-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#буклеторецепт-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#буклеторецепт-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#буклеторецепт-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_пластиковая_карта_брил_8
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 90%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#пластиковая_карта_брил_8-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#пластиковая_карта_брил_8-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#пластиковая_карта_брил_8-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#пластиковая_карта_брил_8-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#пластиковая_карта_брил_8-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#пластиковая_карта_брил_8-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#пластиковая_карта_брил_8-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Новогодняя_скидка_20
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Новогодняя_скидка_20-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Новогодняя_скидка_20-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Новогодняя_скидка_20-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Новогодняя_скидка_20-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Новогодняя_скидка_20-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Новогодняя_скидка_20-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Новогодняя_скидка_20-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_купюра_3
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#купюра_3-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#купюра_3-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купюра_3-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#купюра_3-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#купюра_3-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#купюра_3-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купюра_3-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_footer
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: unfold 4200ms linear 0ms 1 normal both;
+}
+#footer
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 20px 0 20px 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#footer > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#footer > .col-1
+{
+   flex: 0 0 auto;
+}
+#footer > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#footer > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#footer-divider-top
+{
+   overflow: hidden;
+   position: absolute;
+   top: 0%;
+   width: 100%;
+   height: 50px;
+   line-height: 0;
+   left: 0;
+   transform: scaleY(-1.0);
+}
+#footer-divider-top svg
+{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   top: 0;
+   transform: translateX(-50%);
+}
+#footer-divider-top .divider-fill
+{
+   fill: #FF0000;
+   transform-origin: bottom;
+   transform: rotateY(0deg);
+}
+#partical_footer-particles
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_email 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_email
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 35px;
+   line-height: 40px;
+}
+#wb_email p, #wb_email ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_email
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_intro 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   animation: slide-up-in 1000ms linear 0ms 1 normal both;
+}
+#wb_intro
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_intro p, #wb_intro ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_intro
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_meditation
+{
+   margin: 0;
+   vertical-align: top;
+}
+#meditation
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   animation: slide-down-in 1000ms linear 0ms 1 normal both;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_photoshop_card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#photoshop_card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#photoshop_card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#photoshop_card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_excel
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#excel
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#excel > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#excel > .col-1
+{
+   flex: 0 0 auto;
+}
+#excel > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#excel > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_access
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#access
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#access > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#access > .col-1
+{
+   flex: 0 0 auto;
+}
+#access > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#access > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_finebi
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#finebi
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#finebi > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#finebi > .col-1
+{
+   flex: 0 0 auto;
+}
+#finebi > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#finebi > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_powerbi
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#powerbi
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#powerbi > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#powerbi > .col-1
+{
+   flex: 0 0 auto;
+}
+#powerbi > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#powerbi > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_qlick
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#qlick
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#qlick > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#qlick > .col-1
+{
+   flex: 0 0 auto;
+}
+#qlick > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#qlick > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_tableau
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: magic-in 1000ms linear 0ms 1 normal both;
+}
+#tableau
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#tableau > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#tableau > .col-1
+{
+   flex: 0 0 auto;
+}
+#tableau > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#tableau > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_excel_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#excel_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_access_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#access_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#access_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#access_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_finebi_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#finebi_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#finebi_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#finebi_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_powerbi_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#powerbi_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#powerbi_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#powerbi_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_qlick_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#qlick_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#qlick_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#qlick_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_tableau_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#tableau_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+.stretched-link::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+   background-color: rgba(0,0,0,0);
+}
+#tableau_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#tableau_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#tableau_Card-card-footer
+{
+   box-sizing: border-box;
+   position: absolute;
+   bottom: 3px;
+   width: 156px;
+   border-top: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   animation: flip 2000ms linear 0ms infinite normal both;
+}
+#wb_photoshop
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#photoshop
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#photoshop > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#photoshop > .col-1
+{
+   flex: 0 0 auto;
+}
+#photoshop > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#photoshop > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_illustrator_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#illustrator_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#illustrator_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#illustrator_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_xd_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#xd_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#xd_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#xd_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_power_point
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#power_point-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#power_point-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#power_point-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_corel
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#corel-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#corel-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#corel-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_iilustrator
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#iilustrator
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#iilustrator > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#iilustrator > .col-1
+{
+   flex: 0 0 auto;
+}
+#iilustrator > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#iilustrator > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_xd
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#xd
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#xd > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#xd > .col-1
+{
+   flex: 0 0 auto;
+}
+#xd > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#xd > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_corelG
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#corelG
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#corelG > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#corelG > .col-1
+{
+   flex: 0 0 auto;
+}
+#corelG > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#corelG > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_power
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#power
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#power > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#power > .col-1
+{
+   flex: 0 0 auto;
+}
+#power > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#power > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_indesign
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+   animation: tin-right-in 1000ms linear 0ms 1 normal both;
+}
+#indesign
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#indesign > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#indesign > .col-1
+{
+   flex: 0 0 auto;
+}
+#indesign > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#indesign > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_indesign_Card
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#indesign_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#indesign_Card-card-header
+{
+   box-sizing: border-box;
+   border-bottom: 3px solid #FFFFFF;
+   margin: 0;
+   padding: 12px 20px 12px 20px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#indesign_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wb_photo_Section
+{
+   height: 0;
+   padding: 0 0 133.7881% 0;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   animation: slide-left-in 1000ms linear 0ms 1 normal;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DEDEDE;
+   border-radius: 0px;
+   text-align: center;
+}
+#photo_Section-card-body
+{
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#photo_Section-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   height: auto;
+   width: 100%;
+   padding: 0;
+}
+#photo_Section-card-item0 img
+{
+   box-sizing: border-box;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   border: 0px solid #000000;
+   border-radius: 0px;
+}
+#photo_Section-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   height: auto;
+   width: 100%;
+   padding: 0;
+}
+#photo_Section-card-item1 img
+{
+   box-sizing: border-box;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   border: 0px solid #000000;
+   border-radius: 0px;
+}
+#wb_cotent 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_cotent
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_cotent p, #wb_cotent ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_cotent
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#partical_header-particles
+{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#WrapText1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border-radius: 0px;
+}
+.WrapText1
+{
+   position: absolute;
+   white-space: nowrap;
+   border-width: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size:12.80px;
+   font-style: normal;
+   text-align: left;
+}
+#wb_analit_Card
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#analit_Card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+.stretched-link::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+   background-color: rgba(0,0,0,0);
+}
+#analit_Card-card-item0
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#analit_Card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#analit_image_col
+{
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   font-size: 0;
+}
+#analit_image_col .owl-dots, #analit_image_col .owl-nav
+{
+   text-align: center;
+}
+#analit_image_col .owl-nav [class*=owl-]
+{
+   opacity: 0.7;
+   color: #0000FF;
+   font-size: 48px;
+   line-height: 48px;
+   display: inline-block;
+   cursor: pointer;
+   pointer-events: all;
+}
+#analit_image_col .owl-nav [class*=owl-]:hover
+{
+   opacity: 1;
+   color: #0000FF;
+   text-decoration: none;
+}
+#analit_image_col .owl-nav .disabled
+{
+   opacity: .5;
+   cursor: default;
+}
+#analit_image_col .owl-nav.disabled+.owl-dots
+{
+   margin-top: 10px;
+}
+#analit_image_col .owl-nav
+{
+   position:  absolute;
+   top: 0;
+   display:  flex;
+   align-items: center;
+   justify-content: space-between;
+  pointer-events: none;
+   width: calc(100% - 20px);
+   height: calc(100% - 32px);
+}
+#analit_image_col .owl-nav button.owl-prev, #analit_image_col button.owl-next
+{
+   height: 48px;
+   width: 48px;
+   border-radius: 50%;
+   background-color: rgba(255,255,255, 0.5);
+}
+#analit_image_col .owl-dots .owl-dot
+{
+   display: inline-block;
+   zoom: 1;
+}
+#analit_image_col .owl-dots .owl-dot span
+{
+   width: 12px;
+   height: 12px;
+   margin: 10px 10px;
+   background: #FF0000;
+   display: block;
+   -webkit-backface-visibility: visible;
+   backface-visibility: visible;
+   transition: opacity 200ms ease;
+   border-radius: 50%;
+}
+#analit_image_col .owl-dots .owl-dot.active span, #analit_image_col .owl-dots .owl-dot:hover span
+{
+   background: #0000FF;
+}
+#wb_mpstats-wildberries_T
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#mpstats-wildberries_T-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#mpstats-wildberries_T-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#mpstats-wildberries_T-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#mpstats-wildberries_T-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#mpstats-wildberries_T-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#mpstats-wildberries_T-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#mpstats-wildberries_T-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_ABC_XYZ_товарная_матрица
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_ABC_XYZ_товарная_матрица-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_ABC_XYZ_товарная_матрица-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_ABC_XYZ_товарная_матрица-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_ABC_XYZ_товарная_матрица-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel1
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel1-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel1-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel1-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel1-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_power_query
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_power_query-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_power_query-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_power_query-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_power_query-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_прогноз
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_прогноз-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_прогноз-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_прогноз-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_прогноз-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_макросы
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_макросы-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_макросы-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_макросы-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_макросы-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_excel_динамика
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#excel_динамика-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#excel_динамика-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#excel_динамика-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#excel_динамика-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Access_база_данных
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Access_база_данных-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Access_база_данных-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Access_база_данных-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Access_база_данных-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Tableau1
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Tableau1-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Tableau1-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Tableau1-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Tableau1-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Яндекс_Метрика
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Яндекс_Метрика-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Яндекс_Метрика-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Яндекс_Метрика-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Яндекс_Метрика-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Яндекс_Метрика-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Яндекс_Метрика-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Яндекс_Метрика-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_связь_с_Google_Таблицами
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#связь_с_Google_Таблицами-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#связь_с_Google_Таблицами-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#связь_с_Google_Таблицами-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#связь_с_Google_Таблицами-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#связь_с_Google_Таблицами-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#связь_с_Google_Таблицами-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#связь_с_Google_Таблицами-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_wildberries_Обувь_для_девочек
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#wildberries_Обувь_для_девочек-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#wildberries_Обувь_для_девочек-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочек-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wildberries_Обувь_для_девочек-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#wildberries_Обувь_для_девочек-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wildberries_Обувь_для_девочек-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочек-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Выбор_оператора
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Выбор_оператора-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Выбор_оператора-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Выбор_оператора-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Выбор_оператора-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Выбор_оператора-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Выбор_оператора-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Выбор_оператора-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_wildberries_Обувь_для_девочекPB
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#wildberries_Обувь_для_девочекPB-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#wildberries_Обувь_для_девочекPB-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочекPB-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wildberries_Обувь_для_девочекPB-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#wildberries_Обувь_для_девочекPB-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wildberries_Обувь_для_девочекPB-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочекPB-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_план_фактPB
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#план_фактPB-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#план_фактPB-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактPB-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#план_фактPB-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#план_фактPB-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#план_фактPB-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактPB-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_план_фактFB
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#план_фактFB-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#план_фактFB-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактFB-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#план_фактFB-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#план_фактFB-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#план_фактFB-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактFB-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_ретроспективный_анализ
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#ретроспективный_анализ-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#ретроспективный_анализ-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#ретроспективный_анализ-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#ретроспективный_анализ-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#ретроспективный_анализ-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#ретроспективный_анализ-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#ретроспективный_анализ-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Продажи_ABC_XYZ
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Продажи_ABC_XYZ-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Продажи_ABC_XYZ-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Продажи_ABC_XYZ-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Продажи_ABC_XYZ-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Продажи_ABC_XYZ-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Продажи_ABC_XYZ-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Продажи_ABC_XYZ-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_план_факт
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#план_факт-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#план_факт-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_факт-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#план_факт-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#план_факт-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#план_факт-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_факт-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_план_фактQS
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#план_фактQS-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#план_фактQS-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактQS-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#план_фактQS-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#план_фактQS-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#план_фактQS-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#план_фактQS-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_wildberries_Обувь_для_девочекE
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#wildberries_Обувь_для_девочекE-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#wildberries_Обувь_для_девочекE-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочекE-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wildberries_Обувь_для_девочекE-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#wildberries_Обувь_для_девочекE-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#wildberries_Обувь_для_девочекE-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#wildberries_Обувь_для_девочекE-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_olimpic_games
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#olimpic_games-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#olimpic_games-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#olimpic_games-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#olimpic_games-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#olimpic_games-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#olimpic_games-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #FF0000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#olimpic_games-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_grafika_content 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_grafika_content
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_grafika_content p, #wb_grafika_content ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_grafika_content
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_grafica_head
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#grafica_head
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 32px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#wb_grafika_card
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 3px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#grafika_card-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+.stretched-link::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+   background-color: rgba(0,0,0,0);
+}
+#grafika_card-card-item0
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+}
+#grafika_card-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+}
+#wb_ThemeableButton1
+{
+   border-radius: 4px;
+   margin: 0;
+   vertical-align: top;
+}
+#ThemeableButton1
+{
+   box-sizing: border-box;
+   padding: 0;
+   text-align: center;
+}
+#wb_ThemeableButton1 .ui-button
+{
+   display: flex;
+   align-items: center;
+   margin: 0;
+   justify-content: center;
+   box-sizing: border-box;
+}
+#ThemeableButton1
+{
+   color: inherit;
+}
+#wb_ThemeableButton1 .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FF0000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M95%2034%20C96%2035%2c%2096%2035%2c%2096%2036%20C96%2037%2c%2096%2038%2c%2095%2039%20L68%2066%20C67%2067%2c%2066%2067%2c%2065%2067%20C64%2067%2c%2063%2067%2c%2063%2066%20C62%2065%2c%2062%2065%2c%2062%2064%20L62%2050%20L50%2050%20C46%2050%2c%2043%2050%2c%2040%2050%20C38%2051%2c%2035%2051%2c%2032%2051%20C29%2052%2c%2027%2053%2c%2025%2054%20C23%2055%2c%2021%2056%2c%2019%2057%20C18%2059%2c%2016%2061%2c%2015%2063%20C14%2065%2c%2013%2067%2c%2012%2070%20C12%2073%2c%2011%2076%2c%2011%2080%20C11%2082%2c%2012%2084%2c%2012%2087%20C12%2087%2c%2012%2087%2c%2012%2088%20C12%2088%2c%2012%2089%2c%2012%2089%20C12%2090%2c%2012%2090%2c%2012%2091%20C11%2091%2c%2011%2091%2c%2010%2091%20C10%2091%2c%209%2091%2c%209%2090%20C9%2090%2c%208%2089%2c%208%2089%20C8%2089%2c%208%2088%2c%207%2087%20C7%2087%2c%207%2086%2c%207%2086%20C2%2076%2c%200%2068%2c%200%2062%20C0%2055%2c%201%2049%2c%203%2044%20C9%2030%2c%2024%2023%2c%2050%2023%20L62%2023%20L62%209%20C62%208%2c%2062%207%2c%2063%206%20C63%206%2c%2064%205%2c%2065%205%20C66%205%2c%2067%206%2c%2068%206%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#wb_ThemeableButton1:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%232B2B2B%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M95%2034%20C96%2035%2c%2096%2035%2c%2096%2036%20C96%2037%2c%2096%2038%2c%2095%2039%20L68%2066%20C67%2067%2c%2066%2067%2c%2065%2067%20C64%2067%2c%2063%2067%2c%2063%2066%20C62%2065%2c%2062%2065%2c%2062%2064%20L62%2050%20L50%2050%20C46%2050%2c%2043%2050%2c%2040%2050%20C38%2051%2c%2035%2051%2c%2032%2051%20C29%2052%2c%2027%2053%2c%2025%2054%20C23%2055%2c%2021%2056%2c%2019%2057%20C18%2059%2c%2016%2061%2c%2015%2063%20C14%2065%2c%2013%2067%2c%2012%2070%20C12%2073%2c%2011%2076%2c%2011%2080%20C11%2082%2c%2012%2084%2c%2012%2087%20C12%2087%2c%2012%2087%2c%2012%2088%20C12%2088%2c%2012%2089%2c%2012%2089%20C12%2090%2c%2012%2090%2c%2012%2091%20C11%2091%2c%2011%2091%2c%2010%2091%20C10%2091%2c%209%2091%2c%209%2090%20C9%2090%2c%208%2089%2c%208%2089%20C8%2089%2c%208%2088%2c%207%2087%20C7%2087%2c%207%2086%2c%207%2086%20C2%2076%2c%200%2068%2c%200%2062%20C0%2055%2c%201%2049%2c%203%2044%20C9%2030%2c%2024%2023%2c%2050%2023%20L62%2023%20L62%209%20C62%208%2c%2062%207%2c%2063%206%20C63%206%2c%2064%205%2c%2065%205%20C66%205%2c%2067%206%2c%2068%206%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_ThemeableButton1:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M95%2034%20C96%2035%2c%2096%2035%2c%2096%2036%20C96%2037%2c%2096%2038%2c%2095%2039%20L68%2066%20C67%2067%2c%2066%2067%2c%2065%2067%20C64%2067%2c%2063%2067%2c%2063%2066%20C62%2065%2c%2062%2065%2c%2062%2064%20L62%2050%20L50%2050%20C46%2050%2c%2043%2050%2c%2040%2050%20C38%2051%2c%2035%2051%2c%2032%2051%20C29%2052%2c%2027%2053%2c%2025%2054%20C23%2055%2c%2021%2056%2c%2019%2057%20C18%2059%2c%2016%2061%2c%2015%2063%20C14%2065%2c%2013%2067%2c%2012%2070%20C12%2073%2c%2011%2076%2c%2011%2080%20C11%2082%2c%2012%2084%2c%2012%2087%20C12%2087%2c%2012%2087%2c%2012%2088%20C12%2088%2c%2012%2089%2c%2012%2089%20C12%2090%2c%2012%2090%2c%2012%2091%20C11%2091%2c%2011%2091%2c%2010%2091%20C10%2091%2c%209%2091%2c%209%2090%20C9%2090%2c%208%2089%2c%208%2089%20C8%2089%2c%208%2088%2c%207%2087%20C7%2087%2c%207%2086%2c%207%2086%20C2%2076%2c%200%2068%2c%200%2062%20C0%2055%2c%201%2049%2c%203%2044%20C9%2030%2c%2024%2023%2c%2050%2023%20L62%2023%20L62%209%20C62%208%2c%2062%207%2c%2063%206%20C63%206%2c%2064%205%2c%2065%205%20C66%205%2c%2067%206%2c%2068%206%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ThemeableButton1 .ui-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #000000;
+   color: #000000;
+}
+#wb_ThemeableButton1 .ui-state-hover, #wb_ThemeableButton1 .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ThemeableButton1 .ui-state-active, #wb_ThemeableButton1 .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#grafica_cardcont
+{
+   position: relative;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   box-sizing: border-box;
+   font-size: 0;
+}
+#grafica_cardcont .owl-dots, #grafica_cardcont .owl-nav
+{
+   text-align: center;
+}
+#grafica_cardcont .owl-nav [class*=owl-]
+{
+   opacity: 0.7;
+   color: #0000FF;
+   font-size: 48px;
+   line-height: 48px;
+   display: inline-block;
+   cursor: pointer;
+   pointer-events: all;
+}
+#grafica_cardcont .owl-nav [class*=owl-]:hover
+{
+   opacity: 1;
+   color: #0000FF;
+   text-decoration: none;
+}
+#grafica_cardcont .owl-nav .disabled
+{
+   opacity: .5;
+   cursor: default;
+}
+#grafica_cardcont .owl-nav.disabled+.owl-dots
+{
+   margin-top: 10px;
+}
+#grafica_cardcont .owl-nav
+{
+   position:  absolute;
+   top: 0;
+   display:  flex;
+   align-items: center;
+   justify-content: space-between;
+  pointer-events: none;
+   width: calc(100% - 20px);
+   height: calc(100% - 32px);
+}
+#grafica_cardcont .owl-nav button.owl-prev, #grafica_cardcont button.owl-next
+{
+   height: 48px;
+   width: 48px;
+   border-radius: 50%;
+   background-color: rgba(255,255,255, 0.5);
+}
+#grafica_cardcont .owl-dots .owl-dot
+{
+   display: inline-block;
+   zoom: 1;
+}
+#grafica_cardcont .owl-dots .owl-dot span
+{
+   width: 12px;
+   height: 12px;
+   margin: 10px 10px;
+   background: #000000;
+   display: block;
+   -webkit-backface-visibility: visible;
+   backface-visibility: visible;
+   transition: opacity 200ms ease;
+   border-radius: 50%;
+}
+#grafica_cardcont .owl-dots .owl-dot.active span, #grafica_cardcont .owl-dots .owl-dot:hover span
+{
+   background: #0000FF;
+}
+#wb_визитка_Берсенева
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#визитка_Берсенева-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#визитка_Берсенева-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_Берсенева-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#визитка_Берсенева-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#визитка_Берсенева-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#визитка_Берсенева-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_Берсенева-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_день_здоровья8
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#день_здоровья8-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#день_здоровья8-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья8-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#день_здоровья8-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#день_здоровья8-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#день_здоровья8-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#день_здоровья8-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_плакат_УВТ
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 90%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#плакат_УВТ-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#плакат_УВТ-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#плакат_УВТ-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#плакат_УВТ-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#плакат_УВТ-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#плакат_УВТ-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#плакат_УВТ-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_doctor_solidus_maisi_Step
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#doctor_solidus_maisi_Step-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#doctor_solidus_maisi_Step-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#doctor_solidus_maisi_Step-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#doctor_solidus_maisi_Step-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#doctor_solidus_maisi_Step-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#doctor_solidus_maisi_Step-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#doctor_solidus_maisi_Step-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Liflet_MM_ortobel
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Liflet_MM_ortobel-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Liflet_MM_ortobel-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Liflet_MM_ortobel-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Liflet_MM_ortobel-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Liflet_MM_ortobel-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Liflet_MM_ortobel-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Liflet_MM_ortobel-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Liflet_MM_ortobel2
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Liflet_MM_ortobel2-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Liflet_MM_ortobel2-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Liflet_MM_ortobel2-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Liflet_MM_ortobel2-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Liflet_MM_ortobel2-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Liflet_MM_ortobel2-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Liflet_MM_ortobel2-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_плакат
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 60%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#плакат-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#плакат-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#плакат-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#плакат-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#плакат-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#плакат-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#плакат-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Universal_recipe_2019_Питер
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Universal_recipe_2019_Питер-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Universal_recipe_2019_Питер-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_2019_Питер-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Universal_recipe_2019_Питер-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Universal_recipe_2019_Питер-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Universal_recipe_2019_Питер-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_2019_Питер-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_подушка630х450
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#подушка630х450-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#подушка630х450-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#подушка630х450-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#подушка630х450-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#подушка630х450-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#подушка630х450-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#подушка630х450-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_беременные
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#беременные-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#беременные-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#беременные-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#беременные-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#беременные-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#беременные-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#беременные-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_педиатрия
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 80%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#педиатрия-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#педиатрия-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#педиатрия-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#педиатрия-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#педиатрия-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#педиатрия-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#педиатрия-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_полезные_советы_2
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 55%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#полезные_советы_2-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#полезные_советы_2-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#полезные_советы_2-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#полезные_советы_2-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#полезные_советы_2-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#полезные_советы_2-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#полезные_советы_2-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Путешествуйте_с_комфортом_20
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Путешествуйте_с_комфортом_20-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Путешествуйте_с_комфортом_20-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Путешествуйте_с_комфортом_20-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Путешествуйте_с_комфортом_20-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Путешествуйте_с_комфортом_20-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Путешествуйте_с_комфортом_20-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Путешествуйте_с_комфортом_20-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_стелькиА4
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#стелькиА4-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#стелькиА4-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#стелькиА4-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#стелькиА4-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#стелькиА4-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#стелькиА4-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#стелькиА4-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_strit_line_standart_5
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 32%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#strit_line_standart_5-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#strit_line_standart_5-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#strit_line_standart_5-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#strit_line_standart_5-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#strit_line_standart_5-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#strit_line_standart_5-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#strit_line_standart_5-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Universal_recipe_2019
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#Universal_recipe_2019-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Universal_recipe_2019-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_2019-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Universal_recipe_2019-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#Universal_recipe_2019-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Universal_recipe_2019-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#Universal_recipe_2019-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_а_окт
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#а_окт-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#а_окт-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#а_окт-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#а_окт-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#а_окт-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#а_окт-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#а_окт-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_буклеторецеп
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 42%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#буклеторецеп-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#буклеторецеп-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#буклеторецеп-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#буклеторецеп-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#буклеторецеп-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#буклеторецеп-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#буклеторецеп-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_визитка_Огородников
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 90%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#визитка_Огородников-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#визитка_Огородников-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_Огородников-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#визитка_Огородников-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#визитка_Огородников-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#визитка_Огородников-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_Огородников-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_визитка_магазинов
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#визитка_магазинов-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#визитка_магазинов-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_магазинов-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#визитка_магазинов-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#визитка_магазинов-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#визитка_магазинов-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#визитка_магазинов-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_НК_лицевая_ЦФ
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 32%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#НК_лицевая_ЦФ-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#НК_лицевая_ЦФ-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#НК_лицевая_ЦФ-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#НК_лицевая_ЦФ-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#НК_лицевая_ЦФ-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#НК_лицевая_ЦФ-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#НК_лицевая_ЦФ-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_купон_лиговский_открытие
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#купон_лиговский_открытие-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#купон_лиговский_открытие-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купон_лиговский_открытие-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#купон_лиговский_открытие-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#купон_лиговский_открытие-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#купон_лиговский_открытие-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купон_лиговский_открытие-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_купон_igli
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   max-width: 85%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#купон_igli-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#купон_igli-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купон_igli-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#купон_igli-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#купон_igli-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#купон_igli-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#купон_igli-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_подготовка_к_печати_print
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0%;
+   align-self: auto;
+   box-sizing: border-box;
+   margin: 0;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+}
+#подготовка_к_печати_print-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#подготовка_к_печати_print-card-item0
+{
+   display: inline-block;
+   height: 39px;
+   box-sizing: border-box;
+   margin: 25px 20px 20px 20px;
+   padding: 10px 16px 10px 16px;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#подготовка_к_печати_print-card-item0 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#подготовка_к_печати_print-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 19px;
+   width: 19px;
+}
+#подготовка_к_печати_print-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#подготовка_к_печати_print-card-footer
+{
+   box-sizing: border-box;
+   border-top: 0px solid #DEDEDE;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+}
+#подготовка_к_печати_print-card-footer a
+{
+   color: inherit;
+   text-decoration: none;
+}
